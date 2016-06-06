@@ -15,10 +15,10 @@ app.on('ready', function() {
     }
 
     mainWindow = new BrowserWindow({
-        frame: false,
-        height: 700,
-        resizable: false,
-        width: 368
+        frame: true,
+        height: 768,
+        resizable: true,
+        width: 1366
     });
 
     mainWindow.loadUrl('file://' + __dirname + '/app/index.html');

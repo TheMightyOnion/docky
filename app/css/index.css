@@ -1,9 +1,9 @@
 html,
 body {
     background: #0C7CA2;
-    height: 725px;
+    height: 1366px;
     overflow: hidden;
-    width: 368px;
+    width: 768px;
     -webkit-app-region: drag;
     -webkit-user-select: none;
 }
@@ -113,4 +113,3 @@ body {
     background-size: 24px 24px;
     right: 6px;
 }
-
